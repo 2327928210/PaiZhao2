@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="batai.com.paizhao.SecondActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:background="#eee">
+        <Button
+            android:layout_marginLeft="50px"
+            android:id="@+id/button_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发现"
+            android:layout_centerVertical="true"
+            app:layout_auto_basewidth="height|textSize"/>
+        <Button
+            android:layout_marginLeft="360px"
+            android:id="@+id/button_paizhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拍照"
+            android:layout_centerVertical="true"
+            app:layout_auto_basewidth="height|textSize"/>
+        <Button
+            android:layout_marginLeft="680px"
+            android:id="@+id/button_xingce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="相册"
+            android:layout_centerVertical="true"
+            app:layout_auto_basewidth="height|textSize"
+            />
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+</RelativeLayout>
